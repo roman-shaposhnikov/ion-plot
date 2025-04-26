@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "plot"
+version = "0.1.63"
+description = ""
+authors = ["roman-dector <roman.schaposhnikov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dal = { git = "git@github.com:roman-dector/ion-dal.git", branch = "main" }
+suntime = { git = "git@github.com:roman-dector/suntime.git", branch = "master" }
+pandas = "^2.0.0"
+statsmodels = "^0.13.5"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+numpy = "^1.24.2"
+timezonefinder = "^6.2.0"
+aacgmv2 = "^2.6.3"
+notebook = "^6.5.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

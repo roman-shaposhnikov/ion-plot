@@ -1,0 +1,12 @@
+{
+	 "include": [
+	    "plot"
+	  ],
+	"venv": "ion-plot",
+	"venvPath": "~/.pyenv/versions/3.11.0/envs/ion-plot"
+}
+
+
+
+
+
